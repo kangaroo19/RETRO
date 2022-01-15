@@ -1,0 +1,27 @@
+#taskbar{
+    border:solid silver 1px;
+    background-color:rgb(163, 162, 162);
+}
+#logo{
+    width:30px;
+    height:30px;
+    position:relative;
+    top:10px;
+}
+#logobox{
+    position: relative;
+    bottom:8px;
+    font-family: 'VT323', monospace;
+    background-color: silver;
+    border:3px outset gray;
+    width:77px;
+    height:44px;
+    font-size: 20px;
+}
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}

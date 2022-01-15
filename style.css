@@ -1,0 +1,11 @@
+body{
+    background-color: #008B8B;
+}
+*{
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=151727),auto;
+    /* cursor:url(http://www.rw-designer.com/cursor-extern.php?id=151730),wait; */
+    
+}
+a{
+    cursor:url(http://www.rw-designer.com/cursor-extern.php?id=151740),pointer;
+}
