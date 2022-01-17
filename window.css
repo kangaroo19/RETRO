@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+#window{
+    background-color: silver;
+    margin:0 auto;
+    border:3px solid black;
+    width:700px;
+    height:700px;
+}
+#window_top{
+    background-color: rgb(14, 12, 131);
+    color:white;
+    position: relative;
+    margin-top:2px;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    height:30px;
+}
+#window_top_button{
+    margin-top:3px;
+    position:absolute;
+    right:0;
+    border:3px outset white
+}
+#window_index{
+    
+    height:550px;
+    display: flex;
+}
+#window_index_img{
+    background-image: url(momentum.PNG);
+    background-repeat: round;
+    margin:10px;
+    border:1px solid black;
+    width:200px;
+    height:525px;
+}
+#window_index_text{
+    border:1px solid black;
+    width:450px;
+    height:525px;
+    margin:10px 5px;
+}
+#window_bottom{
+    border-top:1px solid black;
+    height:110px;
+}
