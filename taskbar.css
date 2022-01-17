@@ -28,14 +28,16 @@
 #logobox:active{
     border:3px outset white;
 }
-#time{
-    border:1px solid black;
+#clock{
+    margin-right:2px;
+    margin-top:2px;
+    border:1px inset silver;
     position: fixed;
     text-align: center;
-    line-height: 41px;
+    line-height: 38px;
     right:0;
     width:100px;
-    height:41px;
+    height:38px;
 }
 body{
     background-color: #008B8B;

@@ -1,4 +1,5 @@
 #icon1{
+    margin-bottom:30px;
     width:85px;
     /* margin: 0 auto; */
 }
@@ -13,5 +14,40 @@
     font-size: small;
 }
 #icon1:active{
+    border:black dotted 1px;
+}
+
+#icon2{
+    margin-bottom:30px;
+    width:85px;
+}
+#network{
+    margin-left:14px;
+    width:50px;
+    height:50px;
+}
+#icon2text{
+    color:white;   
+    text-align: center;
+    font-size: small;
+}
+#icon2:active{
+    border:black dotted 1px;
+}
+
+#icon3{
+    width:85px;
+}
+#trash{
+    margin-left:14px;
+    width:50px;
+    height:50px;
+}
+#icon3text{
+    color:white;   
+    text-align: center;
+    font-size: small;
+}
+#icon3:active{
     border:black dotted 1px;
 }
