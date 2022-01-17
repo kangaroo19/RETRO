@@ -1,6 +1,6 @@
 #icon1{
-    width:83px;
-    margin: 0 auto;
+    width:85px;
+    /* margin: 0 auto; */
 }
 #mycomputer{
     margin-left:14px;
@@ -8,7 +8,7 @@
     height:50px;
 }
 #icon1text{
-    /* color:white;  본문 병합시 추가*/ 
+    color:white;   
     text-align: center;
     font-size: small;
 }

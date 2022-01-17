@@ -5,25 +5,37 @@
     margin-left:-8px;
     border:solid silver 1px;
     background-color:rgb(163, 162, 162);
+    display:flex;
 }
 #logo{
     width:30px;
     height:30px;
     position:relative;
-    top:10px;
+    top:5px;
+    margin-bottom: -4px;
 }
 #logobox{
+    display: inline-block;
     position: relative;
-    bottom:8px;
+    bottom:0px;
     font-family: 'VT323', monospace;
     background-color: silver;
     border:3px outset gray;
-    width:77px;
-    height:44px;
+    width:82px;
+    height:41px;
     font-size: 20px;
 }
 #logobox:active{
     border:3px outset white;
+}
+#time{
+    border:1px solid black;
+    position: fixed;
+    text-align: center;
+    line-height: 41px;
+    right:0;
+    width:100px;
+    height:41px;
 }
 body{
     background-color: #008B8B;
