@@ -24,7 +24,7 @@
     margin-top:3px;
     position:absolute;
     right:0;
-    border:3px outset white
+    border:3px outset white;
 }
 #window_index{
     
@@ -34,16 +34,19 @@
 #window_index_img{
     background-image: url(momentum.PNG);
     background-repeat: round;
-    margin:10px;
-    border:1px solid black;
+    margin:20px;
+    border:1px inset white;
     width:200px;
     height:525px;
 }
 #window_index_text{
-    border:1px solid black;
+    /* border:1px solid black; */
     width:450px;
     height:525px;
-    margin:10px 5px;
+    margin:20px 5px;
+}
+#window_index_text_text>h1{
+    margin-top:0;
 }
 #window_bottom{
     border-top:1px solid black;
