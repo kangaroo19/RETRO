@@ -18,7 +18,7 @@
     display: inline-block;
     position: relative;
     bottom:0px;
-    font-family: 'VT323', monospace;
+    font-family: 'window95';
     background-color: silver;
     border:3px outset gray;
     width:82px;
@@ -49,4 +49,9 @@ body{
 *::before,
 *::after{
     box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'window95';
+    src:url(font.ttf);
 }

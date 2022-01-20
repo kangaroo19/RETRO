@@ -7,7 +7,7 @@
 #window{
     background-color: silver;
     margin:0 auto;
-    border:3px solid black;
+    /* border:3px solid black; */
     width:700px;
     height:700px;
 }
@@ -15,16 +15,23 @@
     background-color: rgb(14, 12, 131);
     color:white;
     position: relative;
-    margin-top:2px;
-    border-bottom:1px solid black;
-    border-top:1px solid black;
+    margin:5px 3px;
+    padding-left: 10px;
+    /* border-bottom:1px solid black; */
+    /* border-top:1px solid black; */
     height:30px;
+    font-family: 'window95';
+    line-height: 28px;
 }
 #window_top_button{
-    margin-top:3px;
+    margin-top:4px;
+    margin-right:4px;
     position:absolute;
     right:0;
-    border:3px outset white;
+    /* border:2px solid black; */
+    font-family: 'window95';
+    font-weight: 900;
+    background-color: silver;
 }
 #window_index{
     
@@ -47,8 +54,33 @@
 }
 #window_index_text_text>h1{
     margin-top:0;
+    font-family: 'Source Serif Pro', serif
+}
+#window_index_text{
+    font-family: 'window95';
 }
 #window_bottom{
-    border-top:1px solid black;
+    
+    /* border-top:1px solid black; */
     height:110px;
+}
+#window_bottom_back,
+#window_bottom_next,
+#window_bottom_enter{
+    font-family: 'window95';
+    position: relative;
+    top:60px;
+    float:right;
+    margin:5px;
+    width:100px;
+    height:30px;
+    border:2px solid white;
+    box-shadow:2px 2px black;
+}
+
+
+
+@font-face{
+    font-family: 'window95';
+    src:url(font.ttf);
 }
