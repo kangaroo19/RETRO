@@ -51,6 +51,7 @@
     width:450px;
     height:525px;
     margin:20px 5px;
+    line-height: 1.8;
 }
 #window_index_text_text>h1{
     margin-top:0;
@@ -77,6 +78,19 @@
     border:2px solid white;
     box-shadow:2px 2px black;
 }
+#window_bottom_next{
+    margin-left: 0;
+}
+#window_bottom_back{
+    margin-right: 3px;
+}
+#window_bottom_back:active,
+#window_bottom_next:active,
+#window_bottom_enter:active{
+    border:2px solid black;
+}
+
+
 
 
 
