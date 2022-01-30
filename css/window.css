@@ -39,7 +39,7 @@
     display: flex;
 }
 #window_index_img{
-    background-image: url(momentum.PNG);
+    background-image: url(../img/momentum.PNG);
     background-repeat: round;
     margin:20px;
     border:1px inset white;
@@ -96,5 +96,5 @@
 
 @font-face{
     font-family: 'window95';
-    src:url(font.ttf);
+    src:url(../font.ttf);
 }
