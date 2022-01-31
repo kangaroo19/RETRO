@@ -53,5 +53,5 @@ body{
 
 @font-face{
     font-family: 'window95';
-    src:url(font.ttf);
+    src:url(../font.ttf);
 }
