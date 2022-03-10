@@ -1,4 +1,5 @@
 #icon1{
+    border:#008B8B solid 1px;
     margin-bottom:30px;
     width:85px;
     /* margin: 0 auto; */
@@ -18,8 +19,9 @@
 }
 
 #icon2{
+    border:#008B8B solid 1px;
     margin-bottom:30px;
-    width:85px;
+    width:88px;
 }
 #network{
     margin-left:14px;
@@ -36,6 +38,7 @@
 }
 
 #icon3{
+    border:#008B8B solid 1px;
     width:85px;
 }
 #trash{
