@@ -1,8 +1,8 @@
 #taskbar{
-    position: fixed;
+    /* position: absolute; */
     bottom:0;
-    width:100%;
-    margin-left:-8px;
+    width:1200px;
+    margin:0 auto;
     border:solid silver 1px;
     background-color:rgb(163, 162, 162);
     display:flex;
@@ -39,9 +39,7 @@
     width:100px;
     height:38px;
 }
-body{
-    background-color: #008B8B;
-}
+
 
 
 

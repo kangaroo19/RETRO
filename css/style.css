@@ -1,5 +1,17 @@
-body{
+
+section{
+    width:100%;
+    margin:0 auto;
+    padding-top:10px;
+    height:870px;
+    border:1px solid black;
     background-color: #008B8B;
+
+}
+body{
+    /* background-color: #008B8B; */
+    margin-top:0;
+    
 }
 *{
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=151727),auto;
@@ -9,3 +21,4 @@ body{
 a{
     cursor:url(http://www.rw-designer.com/cursor-extern.php?id=151740),pointer;
 }
+
