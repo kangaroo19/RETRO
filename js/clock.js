@@ -1,4 +1,4 @@
-const clock=document.querySelector("#taskbar-time");
+const clock=document.querySelector("#clock");
 var amPm="";
 
 function getClock(){
