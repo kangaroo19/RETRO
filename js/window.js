@@ -13,3 +13,7 @@ icon2.addEventListener("dblclick",()=>{
     userWindow.classList.remove("hidden");
 });
 
+
+//const userWindow=document.getElementById('window-top');
+
+
