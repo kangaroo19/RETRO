@@ -12,3 +12,4 @@ closeButton.addEventListener("click",closeWindow);
 icon2.addEventListener("dblclick",()=>{
     userWindow.classList.remove("hidden");
 });
+
