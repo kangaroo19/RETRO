@@ -84,7 +84,7 @@ body{
 #taskbar-start:active{
     border:3px inset gray;
 }
-
+/* 드래그 방지 */
 .stop-dragging
 {
   -ms-user-select: none; 

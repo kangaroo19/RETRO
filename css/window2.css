@@ -47,7 +47,7 @@ a{
     height:80%;
 }
 #window-section-img{
-    background-image: url(../img/momentum.PNG);
+    /* background-image: url(../img/momentum.PNG); */
     background-repeat: round;
     border:1px solid black;
     width:25%;
@@ -63,7 +63,7 @@ a{
     line-height:20px;
     font-family: 'window95';
 }
-#window-section-section h1{
+#window-section-header{
     font-size:1.6rem;
     line-height: 60px;
 }
