@@ -78,12 +78,11 @@ a{
 #window-nav-back,
 #window-nav-next,
 #window-nav-enter{
-    border:1px solid black;
     height:40%;
     width:20%;
     line-height: 190%;
     text-align: center;
-    border:2px solid white;
+    /* border:2px solid white; */
     box-shadow:2px 2px black;
 }
 #window-nav-back{
@@ -94,18 +93,29 @@ a{
 }
 #window-nav-enter{
     margin-right:5px;
+    height:35%;
+    width:19%;
 }
-#window-nav-back:active,
-#window-nav-next:active,
-#window-nav-enter:active{
-    border:2px solid black;
-}
+
 #window-top-button:active{
     border:1px inset white;
+
 }
 .hidden{
     display: none;
 }
+.hidebutton{
+    border:2px solid white;
+    background-color:rgba(192,192,192,0.5);
+    color:gray;
+}
+.click{
+    border:2px solid white;
+}
+.click:active{
+    border:2px solid black;
+}
+
 @font-face{
     font-family: 'window95';
     src:url(../font.ttf);

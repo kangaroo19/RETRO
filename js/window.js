@@ -14,6 +14,6 @@ icon2.addEventListener("dblclick",()=>{
 });
 
 
-//const userWindow=document.getElementById('window-top');
+
 
 
