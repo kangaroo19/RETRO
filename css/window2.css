@@ -73,16 +73,17 @@ a{
     display:flex;
     justify-content:right;
     align-items: center;
-    font-family: 'window95';
 }
 #window-nav-back,
 #window-nav-next,
 #window-nav-enter{
+    background-color: silver;
+    font-family: 'window95';
     height:40%;
     width:20%;
     line-height: 190%;
     text-align: center;
-    /* border:2px solid white; */
+    border:2px solid white;
     box-shadow:2px 2px black;
 }
 #window-nav-back{
@@ -92,9 +93,9 @@ a{
     margin-right:10px;
 }
 #window-nav-enter{
+    font-size:0.9rem;
     margin-right:5px;
-    height:35%;
-    width:19%;
+    height:36%;
 }
 
 #window-top-button:active{
@@ -102,18 +103,7 @@ a{
 
 }
 .hidden{
-    display: none;
-}
-.hidebutton{
-    border:2px solid white;
-    background-color:rgba(192,192,192,0.5);
-    color:gray;
-}
-.click{
-    border:2px solid white;
-}
-.click:active{
-    border:2px solid black;
+    display:none;
 }
 
 @font-face{

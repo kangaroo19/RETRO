@@ -77,7 +77,22 @@ body{
     line-height: 45px;
     border:2px inset silver;
 }
+.view{
+    line-height: 43px;
+    font-weight: bolder;
+    text-align: left;
+    font-family: 'window95';
+    font-size: 1.6rem;
+    background-color: rgb(211, 211, 211);
+    margin-top:3px;
+    height:43px;
+    width:200px;
+    border-top:2px gray inset;
+    border-left:2px gray inset;
+    border-bottom:1px gray solid;
+    border-right:1px gray solid;
 
+}
 .icon-img-text:active{
     border:1px dotted black;
 }
