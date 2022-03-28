@@ -28,18 +28,26 @@ a{
     justify-content: space-between;
     font-family: 'window95';
 }
-
+#window-top-header{
+    margin-top:3px;
+}
 #window-top-button{
-    width:30px;
     text-align: center;
+    color:black;
+    margin:2px;
+}
+#window-top-container{
+    margin-top:1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-icon{
+    margin-left:2px;
+    width:20px;
     border:1px solid black;
     background-color: silver;
-    color:black;
-    font-family: 'window95';
-    height:80%;
-    margin:2px;
-    text-align: center;
-    line-height: 170%;
 }
 #window-section{
     display: flex;
@@ -98,7 +106,7 @@ a{
     height:36%;
 }
 
-#window-top-button:active{
+#close-button:active{
     border:1px inset white;
 
 }

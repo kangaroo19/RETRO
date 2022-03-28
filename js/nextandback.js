@@ -9,7 +9,7 @@ const imgAndText=[
     {
         image:"./img/momentum.PNG",
         header:"momentum",
-        text:"11111111111111",
+        text:"윈도우 크기 최대,최소화 구현",
         url:"https://kangaroo19.github.io/Momentum/momentem/index.html"
     },
     {

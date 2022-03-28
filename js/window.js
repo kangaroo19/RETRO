@@ -1,8 +1,9 @@
 const userWindow=document.getElementById("window");//window는 이미 있으므로 변수명 userWdindow로 명명
-const closeButton=document.getElementById("window-top-button");
+const closeButton=document.getElementById("close-button");
 const icon2=document.getElementById("icon2");
 const taskbarThings=document.getElementById('taskbar-things');
 
+taskbarThings.classList.remove("view");
 
 function closeWindow(){
     userWindow.classList.add("hidden");
@@ -15,6 +16,7 @@ icon2.addEventListener("dblclick",()=>{
     userWindow.classList.remove("hidden");
     taskbarThings.classList.add('view');
     taskbarThings.innerText='Helloo';
+    console.log('sdf');
 });
 
 
