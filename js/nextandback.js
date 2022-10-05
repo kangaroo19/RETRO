@@ -9,7 +9,7 @@ const imgAndText=[
     {
         image:"./img/momentum.PNG",
         header:"momentum",
-        text:"윈도우 크기 최대,최소화 구현",
+        text:"유튜버 노마드 코더님의 강의를 듣고 만든 구글 모멘텀 웹페이지 클론코딩입니다",
         url:"https://kangaroo19.github.io/Momentum/momentem/index.html"
     },
     {
