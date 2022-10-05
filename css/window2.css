@@ -1,7 +1,6 @@
 /* test 폴더에 노트북미디어쿼리 css 적용 */
 
 
-
 html,body{
     height:100%;
 }
@@ -69,7 +68,7 @@ a{
     margin:15px;
     font-size:1rem;
     line-height:20px;
-    font-family: 'window95';
+    font-family: 'Galmuri9';
 }
 #window-section-header{
     font-size:1.6rem;
@@ -118,6 +117,10 @@ a{
     font-family: 'window95';
     src:url(../font.ttf);
 }
+@font-face{
+    font-family: 'Galmuri9';
+    src:url(../Galmuri9.ttf);
+}
 
 @media (min-width:1200px){
     #window{
@@ -125,4 +128,9 @@ a{
     }
 }
 
-
+@font-face {
+    font-family: 'HBIOS-SYS';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
