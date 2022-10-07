@@ -15,11 +15,10 @@ closeButton.addEventListener("click",closeWindow);
 icon2.addEventListener("dblclick",()=>{
     userWindow.classList.remove("hidden");
     taskbarThings.classList.add('view');
-    taskbarThings.innerText='Helloo';
-    console.log('sdf');
+    taskbarThings.innerText='My projects';
+    
+    console.log(img)
 });
-
-
 
 
 
