@@ -160,6 +160,13 @@ li{
     height:20px;
     background-color: black;
 }
+#my-info-aside>a{
+    text-align: center;
+    font-size: 15px;
+    line-height: 29px;
+    width:129px;
+    height:27px;
+}
 .nav-button{
     width:133px;
     height:30px;
