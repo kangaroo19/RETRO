@@ -17,7 +17,27 @@ a{
     width:480px;
     height:550px;
 }
+#my-info{
+    top:7%;
+    right:20%;
+    position: fixed;
+    z-index: 99999;
+    background-color: silver;
+    margin:0 auto;
+    width:600px;
+    height:500px;
+}
 #window-top{
+    width:100%;
+    margin:0 auto;
+    background-color: rgb(14, 12, 131);
+    color:white;
+    height:5%;
+    display:flex;
+    justify-content: space-between;
+    font-family: 'window95';
+}
+#my-info-top{
     width:100%;
     margin:0 auto;
     background-color: rgb(14, 12, 131);
@@ -30,17 +50,129 @@ a{
 #window-top-header{
     margin-top:3px;
 }
+#my-info-top-header{
+    margin-top: 3px;
+
+}
 #window-top-button{
+    text-align: center;
+    color:black;
+    margin:2px;
+}
+#my-info-top-button{
     text-align: center;
     color:black;
     margin:2px;
 }
 #window-top-container{
     margin-top:1px;
-
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#my-info-top-button-container{
+    margin-top:1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#my-info-header{
+    
+    width:92%;
+    height:10%;
+    margin:0 auto;
+    line-height:53px;
+    font-size:30px;
+    margin-top:10px;
+    font-family: 'Galmuri9';
+
+}
+#my-info-header>span{
+    font-weight: 900;
+}
+#my-info-section{
+    margin-top:10px;
+    display: flex;
+    height:110%;
+}
+#my-info-article{
+    
+    width:80%;
+    height:60%
+}
+#my-info-article-section{
+    width: 95%;
+    height:100%;
+    margin: 0 auto;
+    background-color: beige;
+    border:2px inset silver;
+    margin-left:23px;
+    overflow-y:scroll
+       
+}
+#my-info-aside{
+    width:30%;
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#content-container{
+    margin:5px;
+}
+#aaa{
+    font-family:'Galmuri9';
+}
+#title{
+    font-family:'Galmuri9';
+    font-weight: 600;
+    text-align: center;
+}
+.box-container{
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+    width:310px;
+    height:25px;
+    border:1px solid black;
+}
+#languages{
+    font-family: 'window95';
+}
+li{
+    font-family: 'window95';
+
+}
+#certification{
+    font-family: 'window95';
+    font-size: 1.5rem;
+}
+#certification2,#contact{
+    font-family: 'Galmuri9';
+
+}
+#contact-title{
+    font-family: 'window95';
+    font-size:1.5rem;
+}
+.box{
+    width:15px;
+    height:20px;
+    background-color: black;
+}
+.nav-button{
+    width:133px;
+    height:30px;
+    margin:0 auto;
+    margin:10px;
+    background-color: silver;
+    border:black 2px solid;
+    box-shadow: 2px 2px;
+    font-family: 'window95';
+    margin-left:15px;
+}
+#nav-button5{
+    margin-top:90px;
 }
 .top-icon{
     margin-left:2px;
@@ -125,6 +257,9 @@ a{
 
 @media (min-width:1200px){
     #window{
+        right:50%;
+    }
+    #my-info{
         right:35%;
     }
 }

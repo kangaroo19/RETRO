@@ -18,5 +18,12 @@ icon2.addEventListener("dblclick",()=>{
     taskbarThings.innerText='My projects';
 });
 
+$('#close-button2').click(()=>{
+    $('#my-info').addClass('hidden')
 
+})
+
+$('#icon1').dblclick(()=>{
+    $('#my-info').removeClass('hidden')
+})
 
