@@ -8,7 +8,7 @@ taskbarThings.classList.remove("view");
 function closeWindow(){
     userWindow.classList.add("hidden");
     taskbarThings.classList.remove('view');
-    //taskbarThings.innerText=null;
+    taskbarThings.innerText=null;
 }
 
 closeButton.addEventListener("click",closeWindow);

@@ -178,6 +178,9 @@ li{
     font-family: 'window95';
     margin-left:15px;
 }
+.nav-button:active{
+    border:white 2px solid;
+}
 #nav-button5{
     margin-top:90px;
 }
@@ -221,18 +224,17 @@ li{
     justify-content:right;
     align-items: center;
 }
-#window-nav-back,
-#window-nav-next,
-#window-nav-enter{
+.window-nav-button{
     background-color: silver;
     font-family: 'window95';
     height:40%;
     width:20%;
     line-height: 190%;
     text-align: center;
-    border:2px solid white;
-    box-shadow:2px 2px black;
+    border:black 2px solid;
+    box-shadow: 2px 2px;
 }
+
 #window-nav-back{
     margin-right:2px;
 }
