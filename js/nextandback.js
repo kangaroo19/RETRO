@@ -20,11 +20,12 @@ const imgAndText=[
         url:"https://chatting22.herokuapp.com/"
     },
     {
-        image:'',
+        image:'./img/movie-camera-png.webp',
         header:'MovieWeb',
-        text:'리액트를 배우기 위해 유투버 노마드 코더님의 강의를 듣고 만든 영화 정보 웹입니다.\n기존 기능에 다음 영화와 이전 영화를 선택해 볼수 있습니다.',
+        text:'리액트를 배우기 위해 유투버 노마드 코더님의 강의를 듣고 만든 영화 정보 웹입니다.\n기존 기능에 다음 영화와 이전 영화를 선택해 볼수 있습니다.\n개발기간은 약 2주 입니다. \n\n\n\n\n\n\n\n\n\n기술스택\nReact,CSS,JSX',
         url:'https://kangaroo19.github.io/movieweb'
     }
+    ,
     {
         image:"",
         header:"以?鍮꾩쨷蟻낅땲宥",
