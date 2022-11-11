@@ -10,7 +10,7 @@ const imgAndText=[
     {
         image:"./img/momentum.jpg",
         header:"momentum",
-        text:"유튜버 노마드 코더님의 강의를 듣고 만든 구글 모멘텀 웹페이지 클론코딩입니다\n 기능으로는 랜덤 배경화면,로그인,할 일 목록,현재 위치와 날씨조회가 있습니다.\n개발기간은 약 한달입니다.\n\n\n\n\n\n\n\n기술스택\nJavaScript,CSS,HTML",
+        text:"유튜버 노마드 코더님의 강의를 듣고 만든 구글 모멘텀 웹페이지 클론코딩입니다\n 기능으로는 랜덤 배경화면,로그인,할 일 목록,현재 위치와 날씨조회가 있습니다.\n개발기간은 약 한달입니다.\n\n\n\n\n\n\n\n\n기술스택\nJavaScript,CSS,HTML",
         url:"https://kangaroo19.github.io/Momentum/momentem/index.html"
     },
     {
@@ -22,14 +22,14 @@ const imgAndText=[
     {
         image:'./img/movie-camera-png.webp',
         header:'MovieWeb',
-        text:'리액트를 배우기 위해 유투버 노마드 코더님의 강의를 듣고 만든 영화 정보 웹입니다.\n기존 기능에 다음 영화와 이전 영화를 선택해 볼수 있습니다.\n개발기간은 약 2주 입니다. \n\n\n\n\n\n\n\n\n\n기술스택\nReact,CSS,JSX,HTML',
+        text:'리액트를 배우기 위해 유투버 노마드 코더님의 강의를 듣고 만든 영화 정보 웹입니다.\n기존 기능에 다음 영화와 이전 영화를 선택 할 수 있습니다.\n개발기간은 약 2주 입니다. \n\n\n\n\n\n\n\n\n\n기술스택\nReact,CSS,JSX,HTML',
         url:'https://kangaroo19.github.io/movieweb'
     }
     ,
     {
         image:"./img/books.jpeg",
         header:"StudyCafe",
-        text:"리액트를 배우고 처음으로 혼자서 만든 스터디 카페 시간 계산 사이트 입니다\n 사용하고 싶은 요금제와 공부 할 시간,스터디 카페에 나올 일 수를 입력하면\n 그에 맞는 시간권이 나와 어떤 요금제를 사용하는 것이 좀 더 이득인지 알 수 있습니다.\n\n\n\n\n\n\n기술스택\nReact,CSS,JSX,HTML",
+        text:"리액트를 배우고 처음으로 혼자서 만든 스터디 카페 시간 계산 사이트 입니다\n 사용하고 싶은 요금제와 공부 할 시간,스터디 카페에 나올 일 수를 입력하면\n 그에 맞는 시간권이 나와 어떤 요금제를 사용하는 것이 좀 더 이득인지 알 수 있습니다.\n개발기간은 약 1주 입니다.\n\n\n\n\n\n기술스택\nReact,CSS,JSX,HTML",
         url:"https://kangaroo19.github.io/studycafe"
     }
     ,
