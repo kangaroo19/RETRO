@@ -1,0 +1,16 @@
+#ball{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    z-index: 0;
+
+}
+#btn{
+    z-index: 99999;
+}
+#box{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    
+}
