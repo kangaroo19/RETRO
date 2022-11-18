@@ -10,6 +10,7 @@
     /* border:3px solid black; */
     width:500px;
     height:700px;
+    
 }
 #window_top{
     background-color: rgb(14, 12, 131);
@@ -99,6 +100,9 @@
     top:50px;
     
 } */
+#icon2:hover{
+    cursor:pointer;
+}
 @media(min-width:1200px){
     
 }

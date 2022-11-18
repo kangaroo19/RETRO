@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/window2.css">
+    <link rel="stylesheet" href="css/error.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <link rel="icon" href="img/logo_favicon.ico">
     <script src="https://kit.fontawesome.com/8fe9d6a948.js" crossorigin="anonymous"></script>
@@ -51,7 +53,7 @@
             </div>
         </div>
     </footer>
-    <div id="my-info">
+    <div id="my-info" class="animate__animated animate__fadeIn">
         <div id="my-info-top">
             <div id="my-info-top-header">My Infomation</div>
             <div id="my-info-top-button">
@@ -113,7 +115,7 @@
             </div>
         </div>
     </div>
-    <div id="window" class="hidden">
+    <div id="window" class="hidden animate__animated animate__fadeIn">
         <div id="window-top">
             <div id="window-top-header">My Projects</div>
             <div id="window-top-button">
@@ -135,6 +137,18 @@
             <button class='window-nav-button' id="window-nav-back">Back</button>
             <button  class='window-nav-button' id="window-nav-next">Next</button>
             <a class='window-nav-button' id="window-nav-enter" href="https://kangaroo19.github.io/Momentum/momentem/index.html" target="_blank">Enter</a>
+        </div>
+    </div>
+    <div id="error-window" class="hidden">
+        <div id="error-window-container">
+            <div id="error-window-top">Error!</div>
+            <div id="error-window-middle">
+                <img src="img/error.png" alt="">
+                <div>잘못된 접근입니다.</div>
+            </div>
+            <div id="error-window-bottom">
+                <button id="#error-btn">확인</button>
+            </div>
         </div>
     </div>
     <script src="js/nextandback.js"></script>

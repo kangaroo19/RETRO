@@ -52,6 +52,7 @@ sectionText.innerText=imgAndText[0].text;
 navBack.disabled=true;
 let i=0;
 function clickNext(){
+    // audio.play()
     i++;
     navNext.disabled=false;
     navBack.disabled=false;
@@ -65,6 +66,7 @@ function clickNext(){
     }
 }
 function clickBack(){
+    // audio.play()
     i--;
     navNext.disabled=false;
     navBack.disabled=false;
