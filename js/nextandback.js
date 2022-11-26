@@ -9,34 +9,34 @@ const navEnter=document.querySelector("#window-nav-enter");
 const imgAndText=[
     {
         image:"./img/momentum.jpg",
-        header:"momentum",
+        header:"MOMENTUM",
         text:"유튜버 노마드 코더님의 강의를 듣고 만든 구글 모멘텀 웹페이지 클론코딩입니다\n 기능으로는 랜덤 배경화면,로그인,할 일 목록,현재 위치와 날씨조회가 있습니다.\n개발기간은 약 한달입니다.\n\n\n\n\n\n\n\n\n기술스택\nJavaScript,CSS,HTML",
         url:"https://kangaroo19.github.io/Momentum/momentem/index.html"
     },
     {
         image:"./img/maple2.jpeg",
-        header:"cardmatching",
+        header:"CARDMATCHING",
         text:"어릴 때 재미있게 플레이하던 '메이플스토리'라는 게임 안에 있는 미니게임인 같은그림찾기게임을 채팅기능을 포함해 1vs1 온라인으로 할 수 있게 웹 상에 구현하였습니다.\n개발기간은 약 한달 반 정도입니다.\n\n\n\n\n\n\n\n기술스택\nJavaScript,NodeJS,CSS,HTML",
         url:"https://chatting22.herokuapp.com/"
     },
     {
         image:'./img/movie-camera-png.webp',
-        header:'MovieWeb',
+        header:'MOVIEWEB',
         text:'리액트를 배우기 위해 유투버 노마드 코더님의 강의를 듣고 만든 영화 정보 웹입니다.\n기존 기능에 다음 영화와 이전 영화를 선택 할 수 있습니다.\n개발기간은 약 2주 입니다. \n\n\n\n\n\n\n\n\n\n기술스택\nReact,CSS,JSX,HTML',
         url:'https://kangaroo19.github.io/movieweb'
     }
     ,
     {
         image:"./img/books.jpeg",
-        header:"StudyCafe",
+        header:"STUDYCAFE",
         text:"리액트를 배우고 처음으로 혼자서 만든 스터디 카페 시간 계산 사이트 입니다\n 사용하고 싶은 요금제와 공부 할 시간,스터디 카페에 나올 일 수를 입력하면\n 그에 맞는 시간권이 나와 어떤 요금제를 사용하는 것이 좀 더 이득인지 알 수 있습니다.\n개발기간은 약 1주 입니다.\n\n\n\n\n\n기술스택\nReact,CSS,JSX,HTML",
         url:"https://kangaroo19.github.io/studycafe"
     }
     ,
     {
         image:"./img/지구본.jpg",
-        header:"MBTI",
-        text:"인프런에서 강의를 듣고 만든 MBTI앱입니다.",
+        header:"MBTI-APP",
+        text:"인프런에서 강의를 듣고 만든 MBTI앱입니다.\n 12개의 질문이 주어지고 자신에게 해당하는 버튼을 클릭하면 자신의 MBTI와 그에 따른 국가가 나옵니다. \n나온 결과는 카카오톡을 이용해 친구들에게 공유할 수도 있습니다.\n\n\n\n\n\n\n기술스택\nReact,CSS,JSX,HTML",
         url:"https://mbtiapp1.netlify.app/"
     }
     ,
