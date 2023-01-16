@@ -68,11 +68,11 @@ $(errorBtn).on('click',()=>{
 const scroll2=document.getElementById('my-info-article-section')
 $('#nav-button1').click(()=>{
     // audio.play()
-    console.log(scroll2.scrollTop)
+    console.log(scroll2.scrollTop) //현재좌표 찍는거
     console.log(scroll2.scrollTo(0,0))
 })
 $('#nav-button2').click(()=>{
-    scroll2.scrollTo(0,300)
+    scroll2.scrollTo(0,300) //움직이는거
 })
 
 $('#nav-button3').click(()=>{
