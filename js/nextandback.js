@@ -22,7 +22,7 @@ const imgAndText=[
     {
         image:'./img/movie-camera-png.webp',
         header:'MOVIEWEB',
-        text:'리액트를 배우기 위해 유투버 노마드 코더님의 강의를 듣고 만든 영화 정보 웹입니다.\n기존 기능에 별도로 다음 영화와 이전 영화를 선택 할 수 있는 기능을 추가하였습니다.\n개발기간은 약 2주 입니다. \n\n\n\n\n\n\n\n\n\n기술스택\nReact,CSS,JSX,HTML',
+        text:'리액트를 배우기 위해 유투버 노마드 코더님의 강의를 듣고 만든 영화 정보 웹입니다.\n기존 기능에 별도로 다음 영화와 이전 영화를 선택 할 수 있는 기능을 추가하였습니다.\n개발기간은 약 2주 입니다. \n\n\n\n\n\n\n\n\n기술스택\nReact,CSS,JSX,HTML',
         url:'https://kangaroo19.github.io/movieweb'
     }
     ,
@@ -40,6 +40,7 @@ const imgAndText=[
         url:"https://mbtiapp1.netlify.app/"
     }
     ,
+   
     {
         image:"",
         header:"以?鍮꾩쨷蟻낅땲宥",
