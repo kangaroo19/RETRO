@@ -21,8 +21,14 @@ closeButton.addEventListener("click",closeWindow);
     
   
 // });
+$('#nav-button5').on('click',()=>{
+    $('#my-info').addClass('hidden')
+    taskbarThings.classList.remove('view')
+    taskbarThings.innerText=null;
 
+})
 $('#close-button2').click(()=>{
+    console.log(123232323)
     $('#my-info').addClass('hidden')
     taskbarThings.classList.remove('view')
     taskbarThings.innerText=null;
@@ -49,7 +55,7 @@ $('#window').draggable()
 icon2.addEventListener('dblclick',()=>{
     console.log(myInfo.className)
     if(myInfo.className=='animate__animated animate__fadeIn ui-draggable'){
-        return
+        return  
     }
     else{
         $('#window').removeClass('hidden')
