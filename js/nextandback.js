@@ -40,7 +40,13 @@ const imgAndText=[
         url:"https://mbtiapp1.netlify.app/"
     }
     ,
-   
+    {
+        image:"./img/army.jpg",
+        header:"MTPLANET",
+        text:"학교 해외전공연수 프로그램에 참여하게 되었을 때 아이디어 위주의 웹 프로젝트를 진행하게 되었는데 그 때 나온 아이디어를 구체화하여 만든 페이지 입니다.\nMTPLANET은 군대 훈련소를 대상으로한 생활관,훈련강도 등에 대한 리뷰들을 보거나 직접 작성할 수 있습니다.\n\n\n\n\n\n\n기술스택\nReact,firebase",
+        url:"https://kangaroo19.github.io/mtplanet/"
+    }
+    ,
     {
         image:"",
         header:"以?鍮꾩쨷蟻낅땲宥",
