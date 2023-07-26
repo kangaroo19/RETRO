@@ -22,6 +22,7 @@ body{
     width:45px;
     height:45px;
 }
+
 .icon-img-text{
     display:flex;
     flex-direction: column;

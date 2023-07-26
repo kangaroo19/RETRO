@@ -20,7 +20,7 @@ const imgAndText=[
         url:"https://chatting22.herokuapp.com/"
     },
     {
-        image:'./img/movie-camera-png.webp',
+        image:'./img/aaaa.jpeg',
         header:'MOVIEWEB',
         text:'리액트를 배우기 위해 유투버 노마드 코더님의 강의를 듣고 만든 영화 정보 웹입니다.\n기존 기능에 별도로 다음 영화와 이전 영화를 선택 할 수 있는 기능을 추가하였습니다.\n개발기간은 약 2주 입니다. \n\n\n\n\n\n\n\n\n기술스택\nReact,CSS,JSX,HTML',
         url:'https://kangaroo19.github.io/movieweb'
@@ -34,16 +34,16 @@ const imgAndText=[
     }
     ,
     {
-        image:"./img/지구본.jpg",
+        image:"./img/earth.jpg",
         header:"MBTI-APP",
         text:"인프런에서 강의를 듣고 만든 MBTI앱입니다.\n 12개의 질문이 주어지고 자신에게 해당하는 버튼을 클릭하면 자신의 MBTI와 그에 따른 국가가 나옵니다. \n나온 결과는 카카오톡을 이용해 친구들에게 공유할 수도 있습니다.\n\n\n\n\n\n\n기술스택\nReact,CSS,JSX,HTML",
         url:"https://mbtiapp1.netlify.app/"
     }
     ,
     {
-        image:"./img/army.jpg",
+        image:"./img/army.webp",
         header:"MTPLANET",
-        text:"학교 해외전공연수 프로그램에 참여하게 되었을 때 아이디어 위주의 웹 프로젝트를 진행하게 되었는데 그 때 나온 아이디어를 구체화하여 만든 페이지 입니다.\nMTPLANET은 군대 훈련소를 대상으로한 생활관,훈련강도 등에 대한 리뷰들을 보거나 직접 작성할 수 있습니다.\n\n\n\n\n\n\n기술스택\nReact,firebase",
+        text:"학교 해외전공연수 프로그램에 참여하게 되었을 때 아이디어 위주의 웹 프로젝트를 진행하게 되었는데 그 때 나온 아이디어를 구체화하여 만든 페이지 입니다.\nMTPLANET은 군대 훈련소를 대상으로한 생활관,훈련강도 등에 대한 리뷰들을 보거나 직접 작성할 수 있습니다.\n\n\n\n\n\n\n기술스택\nReact,Firebase",
         url:"https://kangaroo19.github.io/mtplanet/"
     }
     ,
