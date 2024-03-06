@@ -1,116 +1,110 @@
-body{
-    background-color: #008B8B;
+body {
+  background-color: #008b8b;
 }
-#icon-container{
-    /* border:1px solid white; */
-    padding:10px 10px;
-    display: flex;
-    flex-direction: column;
-
+#icon-container {
+  /* border:1px solid white; */
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
 }
-.icon_img{
-    width:50px;
-    height:50px;
-    margin-top:20px;
+.icon_img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
 }
-.icon{
-    
-    padding:5px;
-    border:1px solid white;
+.icon {
+  padding: 5px;
+  border: 1px solid white;
 }
-.icon-img{
-    width:45px;
-    height:45px;
-}
-
-.icon-img-text{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* border:1px solid white; */
-    width:110px;
-    height:100px;
-}
-.icon-text{
-    margin-top:3px;
-    color:#fff;
-    text-align: center;
-    font-weight: 100;
-    font-size:1rem;
+.icon-img {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
 }
 
-
-
-#taskbar-container{
-    position: fixed;
-    background-color: silver;
-    width:100%;
-    height:50px;
-    bottom:0;
-    display:grid;
-    grid-template-columns: 100px 1fr 100px;
+.icon-img-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border:1px solid white; */
+  width: 110px;
+  height: 100px;
+}
+.icon-text {
+  margin-top: 3px;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1rem;
 }
 
+#taskbar-container {
+  position: fixed;
+  background-color: silver;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+}
 
-#taskbar-start{
-    height:45px;
-    margin:3px;
-    display: flex;
-    align-items: center;
-    border:3px outset gray;
+#taskbar-start {
+  height: 45px;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  border: 3px outset gray;
 }
-#start-img{
-    /* border:1px solid black; */
-    width:40px;
-    height:40px;
+#start-img {
+  /* border:1px solid black; */
+  width: 40px;
+  height: 40px;
 }
-#start-text{
-    font-family: 'window95';
+#start-text {
+  font-family: "window95";
 
-    /* border:1px solid black; */
-    font-size:25px;
+  /* border:1px solid black; */
+  font-size: 25px;
 }
-#taskbar-time{
-    height:45px;
-    margin:3px;
-    text-align: center;
-    font-size:20px;
-    line-height: 45px;
-    border:2px inset silver;
+#taskbar-time {
+  height: 45px;
+  margin: 3px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+  border: 2px inset silver;
 }
-.view{
-    line-height: 43px;
-    font-weight: bolder;
-    text-align: left;
-    font-family: 'window95';
-    font-size: 1.3rem;
-    background-color: rgb(211, 211, 211);
-    margin-top:3px;
-    height:43px;
-    width:200px;
-    border-top:2px gray inset;
-    border-left:2px gray inset;
-    border-bottom:1px gray solid;
-    border-right:1px gray solid;
-
+.view {
+  line-height: 43px;
+  font-weight: bolder;
+  text-align: left;
+  font-family: "window95";
+  font-size: 1.3rem;
+  background-color: rgb(211, 211, 211);
+  margin-top: 3px;
+  height: 43px;
+  width: 200px;
+  border-top: 2px gray inset;
+  border-left: 2px gray inset;
+  border-bottom: 1px gray solid;
+  border-right: 1px gray solid;
 }
-.icon-img-text:active{
-    border:1px dotted black;
+.icon-img-text:active {
+  border: 1px dotted black;
 }
-#taskbar-start:active{
-    border:3px inset gray;
+#taskbar-start:active {
+  border: 3px inset gray;
 }
 /* 드래그 방지 */
-.stop-dragging
-{
-  -ms-user-select: none; 
+.stop-dragging {
+  -ms-user-select: none;
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
   -webkit-user-select: none;
   user-select: none;
 }
-@font-face{
-    font-family: 'window95';
-    src:url(../font.ttf);
+@font-face {
+  font-family: "window95";
+  src: url(../font.ttf);
 }
