@@ -17,7 +17,7 @@ const imgAndText=[
         image:"./img/maple2.jpeg",
         header:"CARDMATCHING",
         text:"어릴 때 재미있게 플레이하던 '메이플스토리'라는 게임 안에 있는 미니게임인 같은그림찾기게임을 채팅기능을 포함해 1vs1 온라인으로 할 수 있게 웹 상에 구현하였습니다.\n개발기간은 약 한달 반 정도입니다.\n\n\n\n\n\n\n\n기술스택\nJavaScript,NodeJS,CSS,HTML",
-        url:"https://chatting22.herokuapp.com/"
+        url:"http://cjh.cafe24app.com"
     },
     {
         image:'./img/aaaa.jpeg',
